@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem "activesupport", require: false
+gem "activesupport", ">= 5.0.1", require: false
 gem "parser", "~> 2.3.3.1"
 gem "pry", require: false
 gem "rubocop", "~> 0.45", require: false

@@ -11,6 +11,6 @@ gem "rubocop-rspec", require: false
 gem "safe_yaml"
 
 group :test do
-  gem "rake"
+  gem "rake", ">= 12.3.3"
   gem "rspec"
 end
